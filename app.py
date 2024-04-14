@@ -8,7 +8,8 @@ def home():
 
 @app.route("/about.html")
 def about():
-    return render_template("about.html")
+    skills = {"Front-End developer.","Machine Learning.","Graphic Desginig.","Problem Sloving."}
+    return render_template("about.html", skills = skills)
 
 @app.route("/index.html")
 def index():

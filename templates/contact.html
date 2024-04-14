@@ -28,10 +28,36 @@
         </div>
     </nav>
     <!-- body section -->
-    <div class="underdevelopmet">
+    <!-- <div class="underdevelopmet">
         This Part of the content will be updated soon.
+    </div> -->
+
+    <div class="contact_heading" style="margin-top: 100px; text-align: center;">
+        <h1>Contact us</h1>
     </div>
-    <!-- end of body section -->
+    <div class=" container_c">
+        <form action="#">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" id="submit_buttom">
+
+        </form>
+    </div>
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__social">
@@ -43,7 +69,7 @@
             <p class="footer__copyright">&copy; 2023 Susan. All rights reserved.</p>
         </div>
     </footer>
-
+    <script src="/static/script.js"></script>
 </body>
 
 </html>

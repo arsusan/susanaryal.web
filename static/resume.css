@@ -1,0 +1,34 @@
+.full {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(245, 245, 245);
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+.left {
+  position: initial;
+  background-color: rgb(198, 204, 205);
+  padding: 20px;
+}
+.right {
+  position: initial;
+  background-color: rgb(208, 211, 211);
+  padding: 20px;
+}
+.image,
+.Contact,
+.Skills,
+.Language,
+.Hobbies,
+.title,
+.Summary,
+.Experience,
+.Education,
+.project {
+  margin-bottom: 30px;
+}
+
+.myresume {
+  text-align: center;
+}

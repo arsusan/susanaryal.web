@@ -8,6 +8,34 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="/static\styles.css" />
+    <style>
+        .about_me {
+            margin: 25px;
+            margin-top: 100px;
+
+        }
+
+        .expriences,
+        .skill {
+            margin-top: 30px;
+        }
+
+        .e,
+        .s {
+            margin: 5px;
+            margin-left: 50px;
+
+        }
+
+        .first {
+            margin-top: 25px;
+        }
+
+        .ex,
+        .s {
+            margin-top: 50px;
+        }
+    </style>
     <title>Web Technology Project.</title>
 </head>
 
@@ -28,8 +56,56 @@
         </div>
     </nav>
     <!-- body section -->
-    <div class="underdevelopmet">
-        This Part of the content will be updated soon.
+
+    <div class="about_me">
+        <div class="defie">
+            <h2 class="about">About me.</h2>
+            <p>Hi there! I'm Susan Aryal, a passionate web developer dedicated to crafting exceptional digital
+                experiences. With years
+                of experience in front-end and back-end development, I thrive on transforming ideas into reality through
+                code. My
+                commitment to continuous learning and collaboration drives me to deliver high-quality solutions that
+                exceed
+                expectations. Let's build something amazing together!</p>
+        </div>
+
+        <div class="expriences">
+            <h2 class="ex">MY EXPERIENCES</h2>
+            <div class="first">
+                <h4 class="e">XYX CORPORATTION <span>2020-present</span></h4>
+                <p class="e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur dignissimos quae,
+                    repellendus obcaecati laboriosam voluptate ipsum unde vero delectus!</p>
+            </div>
+            <div class="first">
+                <h4 class="e">XYX CORPORATTION <span>2018-2020</span></h4>
+                <p class="e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur dignissimos quae,
+                    repellendus obcaecati laboriosam voluptate ipsum unde vero delectus!</p>
+            </div>
+            <div class="first">
+                <h4 class="e">XYX CORPORATTION <span>2016-2018</span></h4>
+                <p class="e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur dignissimos quae,
+                    repellendus obcaecati laboriosam voluptate ipsum unde vero delectus!</p>
+            </div>
+            <div class="first">
+                <h4 class="e">XYX CORPORATTION <span>2015-present</span></h4>
+                <p class="e">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur dignissimos quae,
+                    repellendus obcaecati laboriosam voluptate ipsum unde vero delectus!</p>
+            </div>
+        </div>
+
+
+        <div class="skill">
+            <h2 class="ex">MY SKILLS </h2>
+            <!-- <p>This skills section has used flask to list the skills.</p> -->
+            <div class="e">
+                <ol>
+
+                    {% for skill in skills %}
+                    <li>{{ skill }}</li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
     </div>
     <!-- end of body section -->
     <footer class="footer">
